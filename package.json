@@ -1,0 +1,22 @@
+{ 
+  "homepage": "http://crystalokd.github.io/tailwind",
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build-css": "tailwind build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
